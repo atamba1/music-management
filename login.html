@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="shortcut icon" href="images/NASLOGO.ico">
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>NAS Music Database</h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="Main.html">Home</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="Artists.html" target="_blank">Music News</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<h3><a href="login.html">Login</a></h3>
+			</ul>	
+		</div>
+	</nav>
+
+	<div class="loginBox">
+			<div class="box-1">
+				<h1>Login</h1>
+					<form action="process.php" method="POST">
+						<div>
+							<label>User Name</label>
+							<input type ="User" name="username" placeholder="">
+						</div>
+						<br>
+						<div>
+							<label>Password</label>
+							<input type ="Password" name="password" placeholder="">
+						</div>
+						<br>
+						<div>
+							<input type="submit" name="submit" value="Submit">
+							<br>
+						</div>
+						<hr>
+						<div id="newAccount">
+							<a href="http://google.com" 
+							target="_blank">Create New Account</a>
+						</div>
+						
+					</form>
+			</div>	
+			<hr>
+
+	</div>
+
+	<footer id="main-footer">
+		<p>Copyright &copy; 2019 NAS Music</p>
+	</footer>
+
+
+
+</body>
